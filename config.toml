@@ -1,0 +1,4 @@
+baseURL = "https://vc4all.nl/"
+languageCode = "nl-nl"
+title = "Free and accessible videoconferencing"
+theme = "introduction"
