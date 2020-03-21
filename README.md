@@ -75,13 +75,13 @@ version, instead of incrementing the next minor version (1.2.3 -> 1.3.0)
 
 ### Deploy
 
-TODO: setup hugo deploy
-TODO: hook that into a make target
+After testing locally, one can deploy with:
 
-After running a build, testing successfully, one can deploy with
+hugo && rsync -avz --delete public/ deploy@136-144-205-16.colo.transip.net:/var/www/main/current/
 
-    make deploy
+Anyone whose key is added to deploy user can run this.
 
-This checks preconditions such as proper git-tags, branches, permissions
+TODO: hook this into a make target
+TODO: Checks preconditions such as proper git-tags, branches, permissions
 and sanity checks and when met, deploys current release.
 
