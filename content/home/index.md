@@ -4,4 +4,4 @@ draft: false
 weight: 0
 ---
 
-Videobellen voor iedereen
+Beeldbellen voor iedereen
