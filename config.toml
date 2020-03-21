@@ -7,9 +7,9 @@ theme = "introduction"
 # https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/config.toml
 
 [params]
+    customCSS                = ["overrides.css"]
     [markup.goldmark.renderer]   # needs this to use html 
         unsafe= true
-    customCSS                = ["overrides.css"]
     footerText               = " "
     # Configure the home page
     [params.home]
