@@ -18,11 +18,12 @@
             <!-- Super sweet Hero body title -->
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <!-- Title and tagline -->
                     <h1 class="bold-title {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in one{{ end }}">
-                        {{ .Title }}
+                      <a href="/"><img class="logo" src="/images/logo.png" alt="logo: {{ .Site.Title }}"></a>
+                      <span class="hidden">{{ .Title }}</span>
                     </h1>
-                    <div class="subtitle is-3 {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in two{{ end }}">
+                    <!-- Title and tagline -->
+                    <div class="hidden">
                         {{ .Content }}
                     </div>
                     <!-- End title and tagline -->
@@ -35,7 +36,7 @@
             </div> <!-- End of Hero body -->
             {{ end }}
 
-            <div class="hero-foot {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in three{{ end }}">
+            <div class="hero-foot {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in one{{ end }}">
                 <!-- Tell them all about it! -->
                 {{ partial "nav.html" . }}
             </div>
