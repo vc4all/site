@@ -18,11 +18,12 @@
             <!-- Super sweet Hero body title -->
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <!-- Title and tagline -->
                     <h1 class="bold-title {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in one{{ end }}">
-                        {{ .Title }}
+                      <a href="/"><img class="logo" src="/images/logo.png" alt="logo: {{ .Site.Title }}"></a>
+                      <span class="hidden">{{ .Title }}</span>
                     </h1>
-                    <div class="subtitle is-3 {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in two{{ end }}">
+                    <!-- Title and tagline -->
+                    <div class="hidden">
                         {{ .Content }}
                     </div>
                     <!-- End title and tagline -->
@@ -35,7 +36,7 @@
             </div> <!-- End of Hero body -->
             {{ end }}
 
-            <div class="hero-foot {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in three{{ end }}">
+            <div class="hero-foot {{ if or (.Site.Params.fadeIn | default true) .Site.Params.fadeInIndex }}fade-in one{{ end }}">
                 <!-- Tell them all about it! -->
                 {{ partial "nav.html" . }}
             </div>
@@ -82,7 +83,7 @@
                     </div>
                 </div>
                 {{ else }}
-                <div class="markdown has-text-centered">
+                <div class="markdown has-text-left">
                     {{ .Content }}
                 </div>
                 {{ end }}
@@ -102,14 +103,14 @@
         <div class="section" id="{{ .File.TranslationBaseName }}">
             <div class="container has-text-centered">
                 <h2 class="title is-2">{{ .Title }}</h2>
-                <div class="markdown">
+                <div class="markdown has-text-left">
                     {{ .Content }}
                 </div>
                 {{ if .Site.Params.home.localTime }}
                 <p>{{ i18n "index_currentTime" . }} <span id="time" data-time-zone="{{ .Site.Params.home.timeZone }}" data-time-format="{{ .Site.Params.home.timeFormat }}"></span>.</p>
                 {{ end }}
                 {{ with .Site.Params.email }}
-                <h3 class="subtitle is-3 has-text-centered top-pad">
+                <h3 class="subtitle is-3 has-text-left top-pad">
                     <a href="mailto:{{ . }}">{{ . }}</a>
                 </h3>
                 {{ end }}

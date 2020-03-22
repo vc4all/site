@@ -1,7 +1,11 @@
 ---
-title: "Contribute"
+title: "Help mee"
 draft: false
-weight: 20
+weight: 30
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Zet zelf een Jitsi instantie op en maak deze beschikbaar voor anderen. Qua CPU en opslag heb je niet veel nodig. Een VPS met 4GB RAM en 2 Cores kon in onze testen makkelijk 10 mensen in 1 kamer aan. Qua bandbreedte moet je hierbij denken aan grofweg 35Mbit/sec. 
+Als je instantie online is zet deze bij de lijst onderaan. Hiervoor kun je gebruik maken van een [Github pull request](https://github.com/vc4all/site) of 
+een berichtje sturen via [Twitter](https://twitter.com/vc4allnl) of [Mastodon](https://mastodon.nl/@vc4all)
+
+Kun je niet zelf een instantie opzetten, maar heb je wel hosting en voldoende bandbreedte? Neem dan met ons [contact](#contact) op en misschien kunnen we verder helpen.

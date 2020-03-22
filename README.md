@@ -29,6 +29,10 @@ Requirements:
 * npm install autoprefixer
 * npm install postcss-cli
 
+Note: on Ubuntu 18.04 it is better to install using snap: 
+sudo snap install hugo --channel=extended 
+
+
 ### Install
 
 TODO: put everything in a Makefile
@@ -75,13 +79,18 @@ version, instead of incrementing the next minor version (1.2.3 -> 1.3.0)
 
 ### Deploy
 
-TODO: setup hugo deploy
-TODO: hook that into a make target
+After testing locally, one can deploy with:
 
-After running a build, testing successfully, one can deploy with
+hugo && rsync -avz --delete public/ deploy@136-144-205-16.colo.transip.net:/var/www/main/current/
 
-    make deploy
+Anyone whose key is added to deploy user can run this.
 
-This checks preconditions such as proper git-tags, branches, permissions
+note: if you're using a ssh key with a custom name you need to select the specific key:
+hugo && rsync -e "ssh -i /home/USERNAME/.ssh/vc4all_server" -avz --delete public/ deploy@136.144.205.16:/var/www/main/current/
+
+
+
+TODO: hook this into a make target
+TODO: Checks preconditions such as proper git-tags, branches, permissions
 and sanity checks and when met, deploys current release.
 
