@@ -13,7 +13,18 @@ genRandomNumbers = function getRandomNumbers() {
   return nrs_string;  
 }
 
-var jitsi_server_url = document.querySelector("a.btn-start-call").getAttribute( 'href')
+getRandomServer = function getRandomServer() {
+  var jitsi_link = document.querySelector("a.btn-start-call").getAttribute('href'); 
+  var servers = document.querySelectorAll("a.jitsi-server-link"); 
+  if ( servers.length > 0 ) {
+    var server_link = servers[Math.floor(Math.random() * servers.length)];
+    jitsi_link = server_link.getAttribute('href');
+  }
+  return jitsi_link; 
+}
+
+
+var jitsi_server_url = getRandomServer(); 
 var room_nr = genRandomNumbers(); 
 var jitsi_server_room = jitsi_server_url + '/' + room_nr; 
 document.querySelector("a.btn-start-call").setAttribute( 'href', jitsi_server_room);
