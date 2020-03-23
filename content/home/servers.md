@@ -36,4 +36,9 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a class='jitsi-server-link' href="https://jitsi.0x5e.eu/">https://jitsi.0x5e.eu/</a></td>
     <td><a href='https://twitter.com/nickbouwhuis/status/1241698389571616768'>Nick Bouwhuis</a></td>
   </tr>
+  <tr>
+    <td>3</td>
+    <td><a class='jitsi-server-link' href="https://jitsi.hivos.org/">https://jitsi.hivos.org/</a></td>
+    <td><a href='https://www.hivos.org'>Hivos</a></td>
+  </tr>
 </table>
