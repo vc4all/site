@@ -1,0 +1,16 @@
+baseURL = "https://vc4all.nl/"
+languageCode = "nl-nl"
+title = "VC4ALL — Videobellen voor iedereen"
+theme = "introduction"
+
+# See example config with defaults and documentation at:
+# https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/config.toml
+
+[params]
+    customCSS                = ["overrides.css"]
+    [markup.goldmark.renderer]   # needs this to use html 
+        unsafe= true
+    footerText               = " "
+    # Configure the home page
+    [params.home]
+        introHeight          = "medium"            # Input either "medium" or "large" or "fullheight"
