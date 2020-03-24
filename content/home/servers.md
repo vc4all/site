@@ -41,4 +41,9 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a class='jitsi-server-link' href="https://meetme.bit.nl/">https://meetme.bit.nl/</a></td>
     <td><a href='https://www.bit.nl/news/2647/88/Conference-call-Gebruik-de-gratis-videoconferencetool-meetme.bit.nl'>Bit.nl</a></td>
   </tr>
+  <tr>
+    <td>5</td>
+    <td><a class='jitsi-server-link' href="https://meet.waag.org/">https://meet.waag.org/</a></td>
+    <td><a href='https://waag.org'>Waag</a></td>
+  </tr>
 </table>
