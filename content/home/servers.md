@@ -28,11 +28,6 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
   </tr>
   <tr>
     <td>2</td>
-    <td><a class='jitsi-server-link' href="https://meet.jit.si">https://meet.jit.si</a></td>
-    <td>Open Source gemeenschap en <a href='https://www.8x8.com/'>8x8</a></td>
-  </tr>
-  <tr>
-    <td>3</td>
     <td><a class='jitsi-server-link' href="https://jitsi.0x5e.eu/">https://jitsi.0x5e.eu/</a></td>
     <td><a href='https://twitter.com/nickbouwhuis/status/1241698389571616768'>Nick Bouwhuis</a></td>
   </tr>
@@ -40,5 +35,10 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>3</td>
     <td><a class='jitsi-server-link' href="https://jitsi.hivos.org/">https://jitsi.hivos.org/</a></td>
     <td><a href='https://www.hivos.org'>Hivos</a></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><a class='jitsi-server-link' href="https://meetme.bit.nl/">https://meetme.bit.nl/</a></td>
+    <td><a href='https://www.bit.nl/news/2647/88/Conference-call-Gebruik-de-gratis-videoconferencetool-meetme.bit.nl'>Bit.nl</a></td>
   </tr>
 </table>
