@@ -58,4 +58,11 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a href='https://nluug.nl/'>NLUUG</a></td>
     <td></td>
   </tr>
+
+  <tr>
+    <td>7</td>
+    <td><a class='jitsi-server-link' href="https://conference.westplaat.it/">https://conference.westplaat.it/</a></td>
+    <td><a href='https://westplaat-it.nl/'>Westplaat IT</a></td>
+    <td></td>
+  </tr>
 </table>
