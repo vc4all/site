@@ -20,35 +20,42 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>Nr</td>
     <td>Server</td>
     <td>Beheerder</td>
+    <td>Privacyverklaring</td>
   </tr>
   <tr>
     <td>1</td>
     <td><a class='jitsi-server-link' href="https://beeldbellen.vc4all.nl">https://beeldbellen.vc4all.nl</a></td>
     <td>Team vc4all.nl</td>
+    <td><a href='/privacyverklaring-20200330.pdf'>Privacyverklaring (pdf)</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td><a class='jitsi-server-link' href="https://jitsi.0x5e.eu/">https://jitsi.0x5e.eu/</a></td>
     <td><a href='https://twitter.com/nickbouwhuis/status/1241698389571616768'>Nick Bouwhuis</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>3</td>
     <td><a class='jitsi-server-link' href="https://jitsi.hivos.org/">https://jitsi.hivos.org/</a></td>
     <td><a href='https://www.hivos.org'>Hivos</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>4</td>
     <td><a class='jitsi-server-link' href="https://meetme.bit.nl/">https://meetme.bit.nl/</a></td>
     <td><a href='https://www.bit.nl/news/2647/88/Conference-call-Gebruik-de-gratis-videoconferencetool-meetme.bit.nl'>Bit.nl</a></td>
+    <td><a href='https://www.bit.nl/privacy-statement-meetmebitnl/'>Privacyverklaring</a></td>
   </tr>
   <tr>
     <td>5</td>
     <td><a class='jitsi-server-link' href="https://meet.waag.org/">https://meet.waag.org/</a></td>
     <td><a href='https://waag.org'>Waag</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>6</td>
     <td><a class='jitsi-server-link' href="https://jitsi.nluug.nl/">https://jitsi.nluug.nl/</a></td>
     <td><a href='https://nluug.nl/'>NLUUG</a></td>
+    <td></td>
   </tr>
 </table>
