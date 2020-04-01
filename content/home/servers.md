@@ -56,6 +56,6 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>6</td>
     <td><a class='jitsi-server-link' href="https://jitsi.nluug.nl/">https://jitsi.nluug.nl/</a></td>
     <td><a href='https://nluug.nl/'>NLUUG</a></td>
-    <td></td>
+    <td><a href='https://www.nluug.nl/vereniging/privacy.html'>Privacyverklaring (zie kopje 'Videoconferentie Jitsi')</a></td>
   </tr>
 </table>
