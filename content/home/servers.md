@@ -62,6 +62,6 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>7</td>
     <td><a class='jitsi-server-link' href="https://meet.greenmini.host/">https://meet.greenmini.host/</a></td>
     <td><a href='https://www.greenmini.nl/'>Green Mini host</a></td>
-    <td></td>
+    <td><a href='https://www.greenmini.nl/20200401%20Privacyverklaring%20meet.greenmini.host%20-%20Jitsi.pdf'>Privacyverklaring</a></td>
   </tr>
 </table>
