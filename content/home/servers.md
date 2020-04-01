@@ -58,4 +58,10 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a href='https://nluug.nl/'>NLUUG</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td>7</td>
+    <td><a class='jitsi-server-link' href="https://meet.greenmini.host/">https://meet.greenmini.host/</a></td>
+    <td><a href='https://www.greenmini.nl/'>Green Mini host</a></td>
+    <td></td>
+  </tr>
 </table>
