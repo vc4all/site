@@ -70,4 +70,11 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a href='https://www.greenmini.nl/'>Green Mini host</a></td>
     <td><a href='https://www.greenmini.nl/20200401%20Privacyverklaring%20meet.greenmini.host%20-%20Jitsi.pdf'>Privacyverklaring</a></td>
   </tr>
+  <tr>
+    <td>9</td>
+    <td><a class='jitsi-server-link' href="https://jitsi.nogalliance.org/">https://jitsi.nogalliance.org/</a></td>
+    <td><a href='https://nogalliance.org/'>NOG Alliance (Sander Steffann)</a></td>
+    <td><a href='https://nogalliance.org/privacy-policy/'>Privacyverklaring</a></td>
+  </tr>
+
 </table>
