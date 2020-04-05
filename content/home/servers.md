@@ -32,7 +32,7 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>2</td>
     <td><a class='jitsi-server-link' href="https://jitsi.0x5e.eu/">https://jitsi.0x5e.eu/</a></td>
     <td><a href='https://twitter.com/nickbouwhuis/status/1241698389571616768'>Nick Bouwhuis</a></td>
-    <td></td>
+    <td><a href='https://nick.bouwhuis.io/privacy-0x5e-jitsi.pdf'>Privacyverklaring (pdf)</a></td>
   </tr>
   <tr>
     <td>3</td>
