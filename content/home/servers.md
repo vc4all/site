@@ -61,7 +61,7 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
   <tr>
     <td>7</td>
     <td><a class='jitsi-server-link' href="https://meet.speakup.nl/">https://meet.speakup.nl/</a></td>
-    <td><a href='https://nluug.nl/'>Speakup</a></td>
+    <td><a href='https://speakup.nl/'>Speakup</a></td>
     <td><a href='https://meet.speakup.nl/static/privacy.html'>Privacyverklaring (zie kopje 'Jitsi Meet')</a></td>
   </tr>
 </table>
