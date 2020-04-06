@@ -4,14 +4,14 @@ draft: false
 weight: 60
 ---
 
-Hieronder staat een lijst met [Jitsi](https://jitsi.org) servers die je kan gebruiken om mee te beeldbellen. Als je op de link klikt wordt je direct doorgestuurd
-naar de desbetreffende server. Volg daar de verdere instructies voor het aanmaken van een eigen ruimte om te beeldbellen. 
+Hieronder staat een lijst met **Nederlandse [Jitsi](https://jitsi.org) servers** die je kan gebruiken om mee te beeldbellen. Als je op de link klikt wordt je direct doorgestuurd naar de desbetreffende server. Volg daar de verdere instructies voor het aanmaken van een eigen ruimte om te beeldbellen.
+
 Vergeet niet om een wachtwoord in te stellen om ongenade gasten buiten te houden. 
 
 *Mocht een gekozen server niet werken, probeer dan een andere. Als een server meerdere keren niet werkt, stuur ons een [berichtje](#contact)*
 
 __Let op: 
-Verschillende personen en/of organisaties bieden een server aan en beheren die. Alleen beeldbellen.vc4all.nl wordt door onszelf beheerd. 
+Verschillende personen en/of organisaties bieden een server aan en beheren die. Alleen beeldbellen.vc4all.nl wordt door onszelf beheerd (<a href='/privacyverklaring-20200330.pdf' title='Download privacyverklaring als pdf'>privacyverklaring</a>). 
 Hou daar rekening mee en bespreek geen bedrijfsgeheimen of informatie die gevoelig ligt. Dat zou je trouwens ook niet moeten doen via Zoom, Skype etc.
 Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het veilig is.__ 
 
@@ -32,7 +32,7 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>2</td>
     <td><a class='jitsi-server-link' href="https://jitsi.0x5e.eu/">https://jitsi.0x5e.eu/</a></td>
     <td><a href='https://twitter.com/nickbouwhuis/status/1241698389571616768'>Nick Bouwhuis</a></td>
-    <td></td>
+    <td><a href='https://nick.bouwhuis.io/privacy-0x5e-jitsi.pdf'>Privacyverklaring (pdf)</a></td>
   </tr>
   <tr>
     <td>3</td>
@@ -56,12 +56,29 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>6</td>
     <td><a class='jitsi-server-link' href="https://jitsi.nluug.nl/">https://jitsi.nluug.nl/</a></td>
     <td><a href='https://nluug.nl/'>NLUUG</a></td>
-    <td></td>
+    <td><a href='https://www.nluug.nl/vereniging/privacy.html'>Privacyverklaring (zie kopje 'Videoconferentie Jitsi')</a></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><a class='jitsi-server-link' href="https://meet.speakup.nl/">https://meet.speakup.nl/</a></td>
+    <td><a href='https://speakup.nl/'>Speakup</a></td>
+    <td><a href='https://meet.speakup.nl/static/privacy.html'>Privacyverklaring (zie kopje 'Jitsi Meet')</a></td>
   </tr>
   <tr>
     <td>7</td>
     <td><a class='jitsi-server-link' href="https://jitsi.r3blog.nl/">https://jitsi.r3blog.nl/</a></td>
     <td><a href='https://keybase.io/r3boot/'>Lex van Roon</a></td>
     <td><a href='https://jitsi.r3blog.nl/privacyverklaring.pdf</a></td>
+  </tr>
+    <td>8</td>
+    <td><a class='jitsi-server-link' href="https://meet.greenmini.host/">https://meet.greenmini.host/</a></td>
+    <td><a href='https://www.greenmini.nl/'>Green Mini host</a></td>
+    <td><a href='https://www.greenmini.nl/20200401%20Privacyverklaring%20meet.greenmini.host%20-%20Jitsi.pdf'>Privacyverklaring</a></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><a class='jitsi-server-link' href="https://jitsi.nogalliance.org/">https://jitsi.nogalliance.org/</a></td>
+    <td><a href='https://nogalliance.org/'>NOG Alliance (Sander Steffann)</a></td>
+    <td><a href='https://nogalliance.org/privacy-policy/'>Privacyverklaring</a></td>
   </tr>
 </table>
