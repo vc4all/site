@@ -38,7 +38,7 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>3</td>
     <td><a class='jitsi-server-link' href="https://jitsi.hivos.org/">https://jitsi.hivos.org/</a></td>
     <td><a href='https://www.hivos.org'>Hivos</a></td>
-    <td></td>
+    <td><a href='https://jitsi.hivos.org/privacy.html'>Privacyverklaring</a></td>
   </tr>
   <tr>
     <td>4</td>
