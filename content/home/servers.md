@@ -87,6 +87,6 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>7</td>
     <td><a class='jitsi-server-link' href="https://jitsi.r3blog.nl/">https://jitsi.r3blog.nl/</a></td>
     <td><a href='https://keybase.io/r3boot/'>Lex van Roon</a></td>
-    <td></td>
+    <td><a href='https://jitsi.r3blog.nl/privacyverklaring.pdf</a></td>
   </tr>
 </table>
