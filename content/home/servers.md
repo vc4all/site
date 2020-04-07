@@ -50,7 +50,7 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td>5</td>
     <td><a class='jitsi-server-link' href="https://meet.waag.org/">https://meet.waag.org/</a></td>
     <td><a href='https://waag.org'>Waag</a></td>
-    <td></td>
+    <td><a href='https://waag.org/nl/article/privacy-statement-meetwaagorg-jitsi'>Privacyverklaring</a></td>
   </tr>
   <tr>
     <td>6</td>
