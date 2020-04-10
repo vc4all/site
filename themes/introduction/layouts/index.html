@@ -55,7 +55,6 @@
         {{ end }}
 
         {{ range sort $pages "Params.weight" }}
-        {{ if ne .Name "contact.md" }}
         {{ if .File }}
         {{ if eq (os.Stat .File.Dir).Name "projects" }}
             <!-- Now for some cool projects -->
@@ -98,33 +97,6 @@
         {{ end }}
         {{ end }}
         {{ end }}
-        <!-- Let`s chat, shall we? -->
-        {{ with .Resources.GetMatch "contact.md" }}
-        <div class="section" id="{{ .File.TranslationBaseName }}">
-            <div class="container has-text-centered">
-                <h2 class="title is-2">{{ .Title }}</h2>
-                <div class="markdown has-text-left">
-                    {{ .Content }}
-                </div>
-                {{ if .Site.Params.home.localTime }}
-                <p>{{ i18n "index_currentTime" . }} <span id="time" data-time-zone="{{ .Site.Params.home.timeZone }}" data-time-format="{{ .Site.Params.home.timeFormat }}"></span>.</p>
-                {{ end }}
-                {{ with .Site.Params.email }}
-                <h3 class="subtitle is-3 has-text-left top-pad">
-                    <a href="mailto:{{ . }}">{{ . }}</a>
-                </h3>
-                {{ end }}
-                {{ partial "home/social.html" . }}
-            </div>
-            <!-- End Contact container -->
-            {{ partial "top-icon.html" . }}
-        </div>
-        <div class="container">
-            <hr>
-        </div>
-        {{ end }}
-        <!-- End Contact section -->
-        {{ end }}
 
         {{ partial "footer/text.html" . }}
 
@@ -141,5 +113,4 @@
         <script src="{{ $bundleMoment.Permalink }}" integrity="{{ $bundleMoment.Data.Integrity }}"></script>
         {{ end }}
     </body>
-
 </html>

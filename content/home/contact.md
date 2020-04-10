@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 draft: false
-weight: 60
+weight: 90
 ---
-Voor vragen kun je contact opnemen met [Bj&ouml;rn Wijers](https://burobjorn.nl) of stuur ons een berichtje via [Twitter](https://twitter.com/vc4allnl) of [Mastodon](https://mastodon.nl/@vc4all)  
+Voor vragen kun je contact opnemen met [Bj&ouml;rn Wijers](https://burobjorn.nl), [Bèr Kessels](https://berk.es)
+
+We zijn ook te vinden op [Twitter](https://twitter.com/vc4allnl) en [Mastodon](https://mastodon.nl/@vc4all).
