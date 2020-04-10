@@ -14,3 +14,17 @@ theme = "introduction"
     # Configure the home page
     [params.home]
         introHeight          = "medium"            # Input either "medium" or "large" or "fullheight"
+
+    [[params.social]]
+        url   = "https://twitter.com/vc4allnl"
+        icon  = "twitter" # icon name without the 'fa-'
+        icon_pack = "fab"
+    [[params.social]]
+        url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
+        icon = "paper-plane" # icon name without the 'fa-'
+        icon_pack = "fas"
+    [[params.social]]
+        url   = "https://mastodon.nl/@vc4all"
+        icon  = "mastodon" # icon name without the 'fa-'
+        icon_pack = "fab"
+        html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
