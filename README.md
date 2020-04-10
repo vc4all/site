@@ -79,14 +79,12 @@ version, instead of incrementing the next minor version (1.2.3 -> 1.3.0)
 
 ### Deploy
 
-After testing locally, one can deploy with:
+After testing locally, anyone with a `deploy key` can deploy with:
 
-hugo && rsync -avz --delete public/ deploy@136-144-205-16.colo.transip.net:/var/www/main/current/
+`hugo && rsync -avz --delete public/ deploy@136-144-205-16.colo.transip.net:/var/www/main/current/`
 
-Anyone whose key is added to deploy user can run this.
-
-note: if you're using a ssh key with a custom name you need to select the specific key:
-hugo && rsync -e "ssh -i /home/USERNAME/.ssh/vc4all_server" -avz --delete public/ deploy@136.144.205.16:/var/www/main/current/
+If you're using a ssh key that is not managed with your ssh-agent, select it:
+`hugo && rsync -e "ssh -i /home/USERNAME/.ssh/vc4all_server" -avz --delete public/ deploy@136.144.205.16:/var/www/main/current/`
 
 
 
