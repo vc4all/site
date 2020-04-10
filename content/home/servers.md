@@ -12,7 +12,7 @@ __Let op:__
 Verschillende personen en/of organisaties bieden een server aan en beheren die. Alleen beeldbellen.vc4all.nl wordt door onszelf beheerd ([privacyverklaring](/privacyverklaring-20200330.pdf)).
 Hou daar rekening mee en bespreek geen informatie die gevoelig ligt, ook niet op gesloten platforms as Zoom, Skype of hangouts. Alleen een zelf opgezette server biedt 100% privacy en veiligheid, neem hiervoor [contact](#contac) op, wij kunnen dit voor je opzetten.
 
-<table id="servers">
+<table id="servers-table">
   <tr>
     <td>Server</td>
     <td>Beheerder</td>
