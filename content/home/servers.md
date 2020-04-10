@@ -65,6 +65,11 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a href='https://meet.speakup.nl/static/privacy.html'>Privacyverklaring (zie kopje 'Jitsi Meet')</a></td>
   </tr>
   <tr>
+    <td>7</td>
+    <td><a class='jitsi-server-link' href="https://jitsi.r3blog.nl/">https://jitsi.r3blog.nl/</a></td>
+    <td><a href='https://keybase.io/r3boot/'>Lex van Roon</a></td>
+    <td><a href='https://jitsi.r3blog.nl/privacyverklaring.pdf'>Privacyverklaring</a></td>
+  </tr>
     <td>8</td>
     <td><a class='jitsi-server-link' href="https://meet.greenmini.host/">https://meet.greenmini.host/</a></td>
     <td><a href='https://www.greenmini.nl/'>Green Mini host</a></td>
@@ -76,5 +81,4 @@ Alleen als je een server zelf opzet kun je met 100% zekerheid zeggen dat het vei
     <td><a href='https://nogalliance.org/'>NOG Alliance (Sander Steffann)</a></td>
     <td><a href='https://nogalliance.org/privacy-policy/'>Privacyverklaring</a></td>
   </tr>
-
 </table>
