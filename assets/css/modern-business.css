@@ -4,19 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
-}
-
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url('/images/woman-having-a-video-call.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+#main-action {
+  height: 400px;
+  padding-top: 140px;
+}
+#main-action form {
+  background: #fff 30%;
+  align-items: center;
+  justify-content: center;
+}
+#main-action form p {
+  margin-bottom: 0;
 }
