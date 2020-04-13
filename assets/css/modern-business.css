@@ -1,7 +1,21 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+/**
+ * Bootstrap overrides
+ * TODO: use bootstrap compiler and sass vars instead
+ */
+.btn-primary {
+  color: #fff;
+  background-color: #1F2F61;
+  border-color: #1F2F61;
+}
+.btn-primary:hover {
+  color: #F25551;
+  background-color: #1F2F61;
+  border-color: #1F2F61;
+}
+
+
+/**
+ * Custom styles
  */
 body {
   background-image: url('/images/woman-having-a-video-call.jpg');
