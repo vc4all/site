@@ -71,8 +71,9 @@
       </div>
       <div class="col-md-4">
         <select class="form-control form-control-lg">
-          <option>VC4ALL beeldbellen</option>
-          <option selected="selected">BIT beeldbellen</option>
+          {{ range $server := .Site.Params.servers }}
+            <option valiue="{{ $server.url }}">{{ $server.name }}</option>
+          {{ end }}
         </select>
       </div>
       <div class="col-md-4">
