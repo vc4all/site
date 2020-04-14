@@ -70,7 +70,7 @@
         <p>Open een vergaderruimte op één van de privacyvriendelijke, Nederlandse omgevingen:</p>
       </div>
       <div class="col-md-4">
-        <select class="form-control form-control-lg">
+        <select class="form-control form-control-lg" id="serverselect">
           {{ range $server := .Site.Params.servers }}
             <option valiue="{{ $server.url }}">{{ $server.name }}</option>
           {{ end }}
@@ -145,6 +145,11 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script charset="utf-8">
+    var serverSelect = document.getElementById('serverselect');
+    var chosen = Math.floor(Math.random() * serverSelect.length);
+    serverSelect.selectedIndex = chosen;
+  </script>
 
 </body>
 
