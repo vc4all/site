@@ -4,6 +4,9 @@ draft: false
 weight: 20
 ---
 
+TODO: opdelen in 3-bullet "zo doe je het" en "maar als dat niet werkt
+voor jou: hier zijn alle details"
+
 ### Direct beeldbellen
 Hierbij maken wij automatisch een ruimte voor je aan, met een willekeurig kamer nummer, op een server uit de lijst van servers. 
 Je wordt direct naar de desbetreffende beeldbel ruimte doorgestuurd. Je dient zelf de link van deze ruimte via andere communicatie kanalen door te 

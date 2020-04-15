@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  {{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+  <title>
+  {{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }}
+  </title>
+
+  <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+
+  {{ with .Resources.ByType "image" }}
+    {{ range first 5 (sort . "Params.weight") }}
+        <meta property="og:image" content="{{ .Permalink }}"/>
+    {{ end }}
+  {{ else }}
+    {{ with .Site.GetPage "page" "/home" }}
+      {{ range first 5 (.Resources.ByType "image") }}
+        <meta property="og:image" content="{{ .Permalink }}"/>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ with .Site.Params.favicon }}
+  <link rel="shortcut icon" href="{{ . | relURL }}">
+  {{ end }}
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  {{ $business := resources.Get "css/modern-business.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $business.Permalink }}">
+</head>
+
+<body>
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">{{ .Site.Title }}
+      <small>{{ .Title }}</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="/">Home</a>
+      </li>
+      <li class="breadcrumb-item active">{{ .Title }}</li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Sidebar Column -->
+      <div class="col-lg-3 mb-4">
+        <div class="list-group">
+          {{ $url := .URL }}
+          {{ $pages := where .Site.RegularPages "Type" "page" }}
+          {{ range sort $pages "Params.weight"}}
+            {{ if not .IsHome }}
+              <a class="list-group-item{{ if eq $url .URL }} active{{ end }}"
+                 href="{{ .RelPermalink  }}">
+                {{ .Title }}
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <!-- Content Column -->
+      <div class="col-lg-9 mb-4">
+        <p>{{ .Content }}</p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

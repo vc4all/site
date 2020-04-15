@@ -17,7 +17,7 @@
 /**
  * Custom styles
  */
-body {
+body.home {
   background-image: url('/images/woman-having-a-video-call.jpg');
   background-repeat: no-repeat;
   background-position: center;

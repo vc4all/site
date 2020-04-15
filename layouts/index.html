@@ -41,10 +41,9 @@
   <!-- Custom styles for this template -->
   {{ $business := resources.Get "css/modern-business.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $business.Permalink }}">
-
 </head>
 
-<body>
+<body class="home">
   <!-- Page Content -->
   <div class="container">
     <div class="row">
@@ -94,7 +93,7 @@
             <p class="card-text">Voor de digitale vrijdagmiddagborrel, een online verjaardag, even bijpraten met familie en (klein)kinderen, als digitaal klaslokaal, voor de wekelijkse Jogales, enzovoort.</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Meer over beeldbellen</a>
+            <a href="/about/" class="btn btn-secondary">Meer over beeldbellen</a>
           </div>
         </div>
       </div>
@@ -108,7 +107,7 @@
             <li class="list-group-item">Maakt gebruik van het Open Source platform <a href="https://jitsi.org">Jitsi</a></li>
           </ul>
           <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Meer over onze privacyvoordelen</a>
+            <a href="/privacy" class="btn btn-secondary">Meer over onze privacyvoordelen</a>
           </div>
         </div>
       </div>
@@ -124,7 +123,7 @@
             </p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Meer over het gebruik</a>
+            <a href="/werkt/" class="btn btn-secondary">Meer over het gebruik</a>
           </div>
         </div>
       </div>
