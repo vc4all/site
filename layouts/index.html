@@ -63,14 +63,14 @@
 
     <!-- Call to Action Section -->
     <div id="main-action">
-    <form class="row py-4 px-3">
+    <form class="row py-4 px-3" id="serverform">
       <div class="col-md-4">
         <p>Open een vergaderruimte op één van de privacyvriendelijke, Nederlandse omgevingen:</p>
       </div>
       <div class="col-md-4">
         <select class="form-control form-control-lg" id="serverselect">
           {{ range $server := .Site.Params.servers }}
-            <option valiue="{{ $server.url }}">{{ $server.name }}</option>
+            <option value="{{ $server.url }}">{{ $server.name }}</option>
           {{ end }}
         </select>
       </div>
@@ -144,11 +144,33 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script charset="utf-8">
+    // Randomly choose a server and default that in the dropdown.
     var serverSelect = document.getElementById('serverselect');
-    var chosen = Math.floor(Math.random() * serverSelect.length);
-    serverSelect.selectedIndex = chosen;
-  </script>
+    var rndChosen = Math.floor(Math.random() * serverSelect.length);
+    serverSelect.selectedIndex = rndChosen;
 
+    // TODO: why not just Math.floor((Math.random()*1000000)+1);
+    // Apparently Math.random is not random and secure eniough, so
+    // we leave this custom cryptography in place.... sigh..
+    var genRandomNumbers = function getRandomNumbers() {
+      var array = new Uint32Array(1);
+      var nrs_string = '';  
+      window.crypto.getRandomValues(array);
+      for (var i = 0; i < array.length; i++) {
+        nrs_string += array[i] + " ";
+      }
+      return nrs_string;
+    };
+
+    var goToChosenServerAndRandomRoom = function(event) {
+       event.preventDefault();
+
+       var baseURL = serverSelect.options[serverSelect.selectedIndex].value;
+       window.location.href = baseURL + "/" + genRandomNumbers();
+    };
+
+    document.getElementById('serverform').onsubmit = goToChosenServerAndRandomRoom;
+  </script>
 </body>
 
 </html>
