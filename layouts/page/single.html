@@ -94,6 +94,9 @@
       <!-- Content Column -->
       <div class="col-lg-9 mb-4">
         <p>{{ .Content }}</p>
+        {{ if .Page.Params.showservers }}
+          {{ partial "server_table.html" . }}
+        {{ end }}
       </div>
     </div>
     <!-- /.row -->
