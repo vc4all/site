@@ -73,4 +73,12 @@ Hou daar rekening mee en bespreek geen informatie die gevoelig ligt, ook niet op
     <td><a href='https://keybase.io/r3boot/'>Lex van Roon</a></td>
     <td><a href='https://jitsi.r3blog.nl/privacyverklaring.pdf'>Privacyverklaring</a></td>
   </tr>
+    <tr>
+    <td><a class='jitsi-server-link' href="https://pvdd-meet.nl">https://pvdd-meet.nl/</a></td>
+    <td><a href='https://keybase.io/bert_vd_l/'>Bert van der Lingen</a></td>
+    <td><a href='https://pvdd-meet.nl/privacy.html'>Privacyverklaring</a></td>
+  </tr>
+  
+  
+
 </table>
