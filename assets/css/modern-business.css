@@ -18,9 +18,7 @@
  * Custom styles
  */
 body.home {
-  background-image: url('/images/woman-having-a-video-call.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('/images/woman-having-a-video-call.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
