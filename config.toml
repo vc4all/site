@@ -1,6 +1,6 @@
 baseURL = "https://vc4all.nl/"
 languageCode = "nl-nl"
-title = "VC4ALL — Videobellen voor iedereen"
+title = "VC4ALL — Beeldbellen voor iedereen"
 
 # See example config with defaults and documentation at:
 # https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/config.toml
