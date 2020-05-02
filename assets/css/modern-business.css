@@ -23,14 +23,17 @@ body.home {
 }
 
 #main-action {
-  height: 400px;
-  padding-top: 140px;
+  margin: 6em 1em;
 }
+
 #main-action form {
   background: #fff 30%;
   align-items: center;
   justify-content: center;
+  border: 1px #dfdfdf solid;
+  border-radius: 5px;
 }
+
 #main-action form p {
   margin-bottom: 0;
 }
@@ -61,4 +64,10 @@ a.btn-secondary:hover {
   background-color: #f25551;
   border-color: #f25551;
   text-decoration: underline; 
+}
+
+@media screen and (max-width: 370px) { 
+  img.logo { 
+    width: 7em; 
+  }
 }
