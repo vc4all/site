@@ -1,0 +1,38 @@
+/**
+ * Bootstrap overrides
+ * TODO: use bootstrap compiler and sass vars instead
+ */
+.btn-primary {
+  color: #fff;
+  background-color: #1F2F61;
+  border-color: #1F2F61;
+}
+.btn-primary:hover {
+  color: #F25551;
+  background-color: #1F2F61;
+  border-color: #1F2F61;
+}
+
+
+/**
+ * Custom styles
+ */
+body.home {
+  background-image: url('/images/woman-having-a-video-call.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#main-action {
+  height: 400px;
+  padding-top: 140px;
+}
+#main-action form {
+  background: #fff 30%;
+  align-items: center;
+  justify-content: center;
+}
+#main-action form p {
+  margin-bottom: 0;
+}
