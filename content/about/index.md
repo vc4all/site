@@ -4,23 +4,18 @@ draft: false
 weight: 10
 ---
 
-We leven momenteel in bijzonder tijden waarbij we veel meer op onze
-digitale infrastructuur terugvallen dan normaal. Niet alleen voor
-thuiswerken, maar ook om contact te blijven met familie en vrienden. 
-
-Naast de bekende grote namen zoals Skype, Teams, Zoom etc denken wij dat
-het verstandig is om meer videoconferencing platformen te hebben. De
-bekende grote spelers ondervinden nu al problemen in hun
-dienstverlening. Het is dus verstandig om de druk zoveel mogelijk te
-verspreiden. Tevens willen wij onze afhankelijk van met name
-Amerikaanse commerciële diensten beperken.
+We leven momenteel in bijzondere tijden. We moeten veel meer dan voorheen op onze
+digitale infrastructuur terugvallen. Niet alleen voor thuiswerken, maar ook om contact te blijven met familie en vrienden.
 
 _VC4ALL (Video Call Voor Iedereen ofwel beeldbellen voor iedereen)_ is
-een initiatief om beeldbellen beschikbaar te maken (en zoveel
-mogelijk te houden) voor iedereen die hier behoeft aan heeft tijdens de Corona (COVID-19) pandemie. 
-De nadruk ligt hierbij op het faciliteren van contact tussen familie en vrienden.
+een initiatief om beeldbellen beschikbaar te maken (en zoveel mogelijk te houden)
+voor iedereen die hier behoeft aan heeft tijdens de Corona (COVID-19) pandemie. 
+De nadruk ligt hierbij op het privacy-vriendelijk faciliteren van contact tussen familie en vrienden.
 
-Gratis en gerund door vrijwilligers gedurende de Corona (COVID-19)
-pandemie. Zo goed als we kunnen. Daarbij kunnen we alle hulp goed bij
-gebruiken. 
+Dit doen we met behulp van Open Source software en dankzij de hulp van diverse personen en organisaties. 
+Tezamen bieden we verschillende (Jitsi) beeldbel omgevingen aan, waar iedereen gratis van gebruik kan maken. 
+Zonder accounts aanmaken, privacy-vriendelijk (omgevingen dienen in EU gehost te worden en privacy verklaring te hebben)  
+en onafhankelijk van de bekende Amerikaanse commerciële diensten zoals Zoom, Skype, Cisco Webex, Microsoft Teams etc.
 
+Gratis en geleid door vrijwilligers gedurende de Corona (COVID-19)
+pandemie. Zo goed als we kunnen. 
