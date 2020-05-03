@@ -1,12 +1,12 @@
 baseURL = "https://vc4all.nl/"
 languageCode = "nl-nl"
-title = "VC4ALL — Videobellen voor iedereen"
-
+title = "VC4ALL — Beeldbellen voor iedereen"
 # See example config with defaults and documentation at:
 # https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/config.toml
 
 [params]
     customCSS                = ["overrides.css"]
+    description = "Beeldbellen voor voor iedereen die hier behoeft aan heeft tijdens de Corona (COVID-19) pandemie. De nadruk ligt op het faciliteren van contact tussen familie en vrienden. Privacy-vriendelijk, gratis en gerund door vrijwilligers op basis van de Open Source applicatie Jitsi."
     [markup.goldmark.renderer]   # needs this to use html 
         unsafe= true
     footerText               = " "

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
   <meta charset="utf-8">
@@ -19,6 +19,13 @@
   <meta property="og:url" content="{{ .Permalink }}"/>
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+
+
   {{ with .Resources.ByType "image" }}
     {{ range first 5 (sort . "Params.weight") }}
         <meta property="og:image" content="{{ .Permalink }}"/>
@@ -29,10 +36,6 @@
         <meta property="og:image" content="{{ .Permalink }}"/>
       {{ end }}
     {{ end }}
-  {{ end }}
-
-  {{ with .Site.Params.favicon }}
-  <link rel="shortcut icon" href="{{ . | relURL }}">
   {{ end }}
 
   <!-- Bootstrap core CSS -->
@@ -50,7 +53,7 @@
       <div class="col-4 mt-5">
         <h1 class="bold-title">
           <a href="/">
-            <img width="100%" class="logo" src="/images/logo.png" alt="logo: VC4ALL — Videobellen voor iedereen">
+            <img class="logo" src="/images/logo.png" alt="logo: VC4ALL — beeldbellen voor iedereen">
           </a>
           <span hidden>VC4ALL</span>
         </h1>
@@ -63,20 +66,24 @@
 
     <!-- Call to Action Section -->
     <div id="main-action">
-    <form class="row py-4 px-3" id="serverform">
+    <form class="row py-4 px-3" id="serverform" action='https://beeldbellen.vc4all.nl'>
       <div class="col-md-4">
-        <p>Open een vergaderruimte op één van de privacyvriendelijke, Nederlandse omgevingen:</p>
+        <p>
+        <label for='serverselect'>Open een beeldbelruimte op één van de <a href='/privacy'>privacy-vriendelijke</a>, Nederlandse Jitsi omgevingen</label>
+        </p>
       </div>
       <div class="col-md-4">
+        <p>
         <select class="form-control form-control-lg" id="serverselect">
           {{ range $server := .Site.Params.servers }}
             <option value="{{ $server.url }}">{{ $server.name }}</option>
           {{ end }}
         </select>
+        </p>
       </div>
       <div class="col-md-4">
         <button type="submit" class="btn btn-lg btn-primary btn-block">
-          Nieuwe vergadering aanmaken
+          Direct beeldbellen
         </button>
       </div>
     </form>
@@ -86,43 +93,45 @@
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Beeldbellen</h4>
+          <h4 class="card-header">Beeldbellen?</h4>
           <div class="card-body">
             <p class="card-text">Niet alleen voor thuiswerken, maar ook om contact te blijven met familie en vrienden.</p>
-            <p class="card-text">Voor de digitale vrijdagmiddagborrel, een online verjaardag, even bijpraten met familie en (klein)kinderen, als digitaal klaslokaal, voor de wekelijkse Jogales, enzovoort.</p>
+            <p class="card-text">Voor de digitale vrijdagmiddagborrel, een online verjaardag, even bijpraten met familie en (klein)kinderen, als digitaal klaslokaal, voor de wekelijkse Jogales of gewoon elkaar weer eventjes zien.</p><p>Het is allemaal mogelijk met gratis beeldbellen via VC4ALL op basis van de <a href='https://nl.wikipedia.org/wiki/Open_source' title='Lees meer over Open Source op Wikipedia'>Open Source</a> software <a href="https://jitsi.org">Jitsi</a></p>
           </div>
-          <div class="card-footer">
-            <a href="/about/" class="btn btn-secondary">Meer over beeldbellen</a>
-          </div>
+          <!--<div class="card-footer">
+             <a href="/about/" class="btn btn-secondary">Meer over beeldbellen</a>
+          </div>-->
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Privacy vriendelijk</h4>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Privacyvriendelijk alternatief. Zie onze <a href="/privacyverklaring-20200330.pdf">Privacyverklaring</a></li>
-            <li class="list-group-item">Servers staan in de EU</li>
-            <li class="list-group-item">Goede versleuteling</li>
-            <li class="list-group-item">Maakt gebruik van het Open Source platform <a href="https://jitsi.org">Jitsi</a></li>
-          </ul>
-          <div class="card-footer">
-            <a href="/privacy" class="btn btn-secondary">Meer over onze privacyvoordelen</a>
-          </div>
+          <h4 class="card-header">VC4ALL?</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Opgezet en geleid door vrijwilligers</li>
+              <li class="list-group-item">Direct en eenvoudig beeldbellen</li>
+              <li class="list-group-item"><a href='/privacy' title='Meer lezen over privacy'>Privacy-vriendelijk</a>, zonder registratie</li>
+              <li class="list-group-item">Versleutelde verbindingen</li>
+              <li class="list-group-item"><a href='/servers'>Servers</a> staan in de Europese Unie</li>
+              <li class="list-group-item"></li><!-- intentionally left blank -->
+            </ul>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Eenvoudig</h4>
+          <h4 class="card-header">Hoe werkt het?</h4>
           <div class="card-body">
             <p class="card-text">
               Voor mobiel en tablet zijn eenvoudige Apps beschikbaar. Op uw laptop en desktop werkt het gewoon in de webbrowser: geen installatie vereist!
             </p>
             <p>
-              Geen registratie vereist: u maakt gratis en onbeperkt vergaderruimtes aan en stuurt de link naar de deelnemers.
+            <em>Nieuw beeldbel gesprek aanmaken:</em><br>Klik op de knop <strong>Direct Beeldbellen</strong> en stuur de link naar de deelnemers.
+            </p>
+            <p>
+            <em>Deelnemen aan een beeldbel gesprek:</em><br>U heeft alleen de link nodig en (optioneel) het wachtwoord om deel te nemen.
             </p>
           </div>
           <div class="card-footer">
-            <a href="/werkt/" class="btn btn-secondary">Meer over het gebruik</a>
+            <a href="/werkt/" class="btn btn-secondary">Meer weten?</a>
           </div>
         </div>
       </div>
@@ -132,17 +141,7 @@
   </div>
   <!-- /.container -->
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">VC4ALL 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script charset="utf-8">
     // Randomly choose a server and default that in the dropdown.
     var serverSelect = document.getElementById('serverselect');
