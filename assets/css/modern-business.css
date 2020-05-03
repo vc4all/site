@@ -66,6 +66,10 @@ a.btn-secondary:hover {
   text-decoration: underline; 
 }
 
+label[for='serverselect'] {
+  display: inline; 
+}
+
 @media screen and (max-width: 370px) { 
   img.logo { 
     width: 7em; 
