@@ -19,22 +19,12 @@
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
   <meta property="og:url" content="{{ .Permalink }}"/>
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
-
-  {{ with .Resources.ByType "image" }}
-    {{ range first 5 (sort . "Params.weight") }}
-        <meta property="og:image" content="{{ .Permalink }}"/>
-    {{ end }}
-  {{ else }}
-    {{ with .Site.GetPage "page" "/home" }}
-      {{ range first 5 (.Resources.ByType "image") }}
-        <meta property="og:image" content="{{ .Permalink }}"/>
-      {{ end }}
-    {{ end }}
-  {{ end }}
-
-  {{ with .Site.Params.favicon }}
-  <link rel="shortcut icon" href="{{ . | relURL }}">
-  {{ end }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}twitter-summary-card.png"/>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -63,9 +53,9 @@
     </div>
 
     <!-- Page Heading/Breadcrumbs -->
-    <h2 class="mt-4 mb-3">
+    <h1 class="mt-4 mb-3">
       {{ .Title }}
-    </h2>
+    </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
@@ -105,9 +95,6 @@
   <!-- /.container -->
 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

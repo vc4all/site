@@ -70,6 +70,10 @@ label[for='serverselect'] {
   display: inline; 
 }
 
+.breadcrumb-item.active,{
+  color: #4a4a4a; 
+}
+
 
 @media screen and (max-width: 768px) {
   form#serverform div.col-md-4 {

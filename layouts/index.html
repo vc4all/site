@@ -18,25 +18,12 @@
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
   <meta property="og:url" content="{{ .Permalink }}"/>
   <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:image" content="{{ .Site.BaseURL }}twitter-summary-card.png"/>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-
-
-
-  {{ with .Resources.ByType "image" }}
-    {{ range first 5 (sort . "Params.weight") }}
-        <meta property="og:image" content="{{ .Permalink }}"/>
-    {{ end }}
-  {{ else }}
-    {{ with .Site.GetPage "page" "/home" }}
-      {{ range first 5 (.Resources.ByType "image") }}
-        <meta property="og:image" content="{{ .Permalink }}"/>
-      {{ end }}
-    {{ end }}
-  {{ end }}
 
   <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
