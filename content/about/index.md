@@ -13,7 +13,7 @@ voor iedereen die hier behoeft aan heeft tijdens de Corona (COVID-19) pandemie.
 De nadruk ligt hierbij op het gratis faciliteren van contact tussen familie en vrienden.
 
 Dit doen we met behulp van [Open Source](https://nl.wikipedia.org/wiki/Open_source) software en dankzij de hulp van diverse personen en organisaties. 
-Tezamen bieden we verschillende ([Jitsi](https://jitsi.org)) beeldbel omgevingen aan, waar iedereen gratis gebruik van mag maken. 
+Tezamen bieden we verschillende ([Jitsi](https://jitsi.org)) beeldbelomgevingen aan, waar iedereen gratis gebruik van mag maken. 
 Zonder accounts aanmaken, [privacy-vriendelijk](/privacy) en onafhankelijk van de bekende Amerikaanse commerciële diensten zoals Zoom, Skype, Cisco Webex, Microsoft Teams etc.
 
 Gratis en geleid door vrijwilligers gedurende de Corona (COVID-19)
