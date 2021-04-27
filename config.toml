@@ -88,13 +88,6 @@ title = "VC4ALL — Beeldbellen voor iedereen"
         privacy_stmt_name = "Privacyverklaring"
         privacy_stmt_url  = "https://nogalliance.org/privacy-policy/"
     [[params.servers]]
-        name              = "conference.westplaat.it"
-        url               = "https://conference.westplaat.it"
-        managed_name      = "Westplaat IT"
-        managed_url       = "https://westplaat-it.nl/"
-        privacy_stmt_name = "Privacyverklaring"
-        privacy_stmt_url  = "https://westplaat-it.nl/privacy-verklaring/"
-    [[params.servers]]
         name              = "jitsi.r3blog.nl"
         url               = "https://jitsi.r3blog.nl"
         managed_name      = "Lex van Roon"
