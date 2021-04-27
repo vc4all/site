@@ -1,0 +1,103 @@
+/**
+ * Bootstrap overrides
+ * TODO: use bootstrap compiler and sass vars instead
+ */
+.btn-primary {
+  color: #fff;
+  background-color: #1F2F61;
+  border-color: #1F2F61;
+}
+.btn-primary:hover {
+  color: #F25551;
+  background-color: #1F2F61;
+  border-color: #1F2F61;
+}
+
+
+/**
+ * Custom styles
+ */
+.bg-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+
+  background: url('/images/woman-having-a-video-call.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(5px) opacity(90%);
+  -moz-filter: blur(5px) opacity(90%);
+  -o-filter: blur(5px) opacity(90%);
+  -ms-filter: blur(5px) opacity(90%);
+  filter: blur(5px) opacity(90%);
+}
+
+#main-action {
+  margin: 6em 1em;
+}
+
+#main-action form {
+  background: #fff 30%;
+  align-items: center;
+  justify-content: center;
+  border: 1px #dfdfdf solid;
+  border-radius: 5px;
+}
+
+#main-action form p {
+  margin-bottom: 0;
+}
+
+.card-footer {
+  text-align: end; 
+}
+
+a {
+  font-weight: bold;
+  color: #1f2f61;
+}
+
+a:hover {
+  color: #f25551;
+  text-decoration: underline;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #1f2f61;
+  border-color: #1f2f61;
+}
+
+a.btn-secondary:hover {
+  color: #fff;
+  background-color: #f25551;
+  border-color: #f25551;
+  text-decoration: underline; 
+}
+
+label[for='serverselect'] {
+  display: inline; 
+}
+
+.breadcrumb-item.active,{
+  color: #4a4a4a; 
+}
+
+
+@media screen and (max-width: 768px) {
+  form#serverform div.col-md-4 {
+    margin-bottom: 1em; 
+  }
+}
+
+@media screen and (max-width: 370px) { 
+  img.logo { 
+    width: 7em; 
+  }
+}

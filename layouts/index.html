@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  {{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+  <title>
+  {{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }}
+  </title>
+
+  <meta property="og:title" content="{{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:site_name" content="{{ .Site.Title }}"/>
+  <meta property="og:image" content="{{ .Site.BaseURL }}twitter-summary-card.png"/>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  {{ $business := resources.Get "css/modern-business.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $business.Permalink }}">
+</head>
+
+<body class="home">
+  <div class="bg-image"></div>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-4 mt-5">
+        <h1 class="bold-title">
+          <a href="/">
+            <img class="logo" src="/images/logo.png" alt="logo: VC4ALL — beeldbellen voor iedereen">
+          </a>
+          <span hidden>VC4ALL</span>
+        </h1>
+
+        <div hidden>
+          <p>Beeldbellen voor iedereen</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div id="main-action">
+    <form class="row py-4 px-3" id="serverform" action='https://beeldbellen.vc4all.nl'>
+      <div class="col-md-4">
+        <p>
+        <label for='serverselect'>Open een beeldbelruimte op één van de <a href='/privacy'>privacy-vriendelijke</a>, Nederlandse Jitsi-omgevingen</label>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <p>
+        <select class="form-control form-control-lg" id="serverselect">
+          {{ range $server := .Site.Params.servers }}
+            <option value="{{ $server.url }}">{{ $server.name }}</option>
+          {{ end }}
+        </select>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <button type="submit" class="btn btn-lg btn-primary btn-block">
+          Direct beeldbellen
+        </button>
+      </div>
+    </form>
+    </div>
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Beeldbellen?</h4>
+          <div class="card-body">
+            <p class="card-text">Niet alleen voor thuiswerken, maar ook om in contact te blijven met familie en vrienden.</p>
+            <p class="card-text">Voor de digitale vrijdagmiddagborrel, een online verjaardag, even bijpraten met familie en (klein)kinderen, als digitaal klaslokaal, voor de wekelijkse Jogales of gewoon om elkaar weer eventjes te zien.</p><p>Het is allemaal mogelijk met gratis beeldbellen via VC4ALL op basis van de <a href='https://nl.wikipedia.org/wiki/Open_source' title='Lees meer over Open Source op Wikipedia'>Open Source</a> software <a href="https://jitsi.org">Jitsi</a></p>
+          </div>
+          <!--<div class="card-footer">
+             <a href="/about/" class="btn btn-secondary">Meer over beeldbellen</a>
+          </div>-->
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">VC4ALL?</h4>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Opgezet en geleid door vrijwilligers</li>
+              <li class="list-group-item">Direct en eenvoudig beeldbellen</li>
+              <li class="list-group-item"><a href='/privacy' title='Meer lezen over privacy'>Privacy-vriendelijk</a>, zonder registratie</li>
+              <li class="list-group-item">Versleutelde verbindingen</li>
+              <li class="list-group-item"><a href='/servers'>Servers</a> staan in de Europese Unie</li>
+              <li class="list-group-item"></li><!-- intentionally left blank -->
+            </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Hoe werkt het?</h4>
+          <div class="card-body">
+            <p class="card-text">
+              Voor mobiel en tablet zijn eenvoudige apps beschikbaar. Op uw laptop en desktop werkt het gewoon in de webbrowser: geen installatie vereist!
+            </p>
+            <p>
+            <em>Nieuw beeldbelgesprek aanmaken:</em><br>Klik op de knop <strong>Direct Beeldbellen</strong> en stuur de link naar de deelnemers.
+            </p>
+            <p>
+            <em>Deelnemen aan een beeldbelgesprek:</em><br>U heeft alleen de link nodig en (optioneel) het wachtwoord om deel te nemen.
+            </p>
+          </div>
+          <div class="card-footer">
+            <a href="/werkt/" class="btn btn-secondary">Meer weten?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+
+  <script charset="utf-8">
+    // Randomly choose a server and default that in the dropdown.
+    var serverSelect = document.getElementById('serverselect');
+    var rndChosen = Math.floor(Math.random() * serverSelect.length);
+    serverSelect.selectedIndex = rndChosen;
+
+    // TODO: why not just Math.floor((Math.random()*1000000)+1);
+    // Apparently Math.random is not random and secure eniough, so
+    // we leave this custom cryptography in place.... sigh..
+    var genRandomNumbers = function getRandomNumbers() {
+      var array = new Uint32Array(1);
+      var nrs_string = '';  
+      window.crypto.getRandomValues(array);
+      for (var i = 0; i < array.length; i++) {
+        nrs_string += array[i] + " ";
+      }
+      return nrs_string;
+    };
+
+    var goToChosenServerAndRandomRoom = function(event) {
+       event.preventDefault();
+
+       var baseURL = serverSelect.options[serverSelect.selectedIndex].value;
+       window.location.href = baseURL + "/" + genRandomNumbers();
+    };
+
+    document.getElementById('serverform').onsubmit = goToChosenServerAndRandomRoom;
+  </script>
+</body>
+
+</html>

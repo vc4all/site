@@ -1,0 +1,18 @@
+<table class="table table-hover table-striped" id="servers-table">
+  <thead>
+    <tr>
+      <th>Server</td>
+      <th>Beheerder</td>
+      <th>Privacy-verklaring</td>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $server := .Site.Params.servers }}
+    <tr>
+      <td width="40%"><a class='jitsi-server-link' href="{{ $server.url }}">{{ $server.name }}</a></td>
+      <td><a class="text-muted" href="{{ $server.managed_url }}">{{ $server.managed_name }}</a></td>
+      <td><a class="text-muted" href="{{ $server.privacy_stmt_url}}">{{ $server.privacy_stmt_name }}</a></td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>

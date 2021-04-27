@@ -1,16 +1,103 @@
 baseURL = "https://vc4all.nl/"
 languageCode = "nl-nl"
-title = "VC4ALL — Videobellen voor iedereen"
-theme = "introduction"
-
+title = "VC4ALL — Beeldbellen voor iedereen"
 # See example config with defaults and documentation at:
 # https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/config.toml
 
 [params]
     customCSS                = ["overrides.css"]
+    description = "Beeldbellen voor voor iedereen die hier behoeft aan heeft tijdens de Corona (COVID-19) pandemie. De nadruk ligt op het faciliteren van contact tussen familie en vrienden. Privacy-vriendelijk, gratis en gerund door vrijwilligers op basis van de Open Source applicatie Jitsi."
     [markup.goldmark.renderer]   # needs this to use html 
         unsafe= true
     footerText               = " "
     # Configure the home page
     [params.home]
         introHeight          = "medium"            # Input either "medium" or "large" or "fullheight"
+
+    [[params.social]]
+        url   = "https://twitter.com/vc4allnl"
+        icon  = "twitter" # icon name without the 'fa-'
+        icon_pack = "fab"
+    [[params.social]]
+        url   = "https://mastodon.nl/@vc4all"
+        icon  = "mastodon" # icon name without the 'fa-'
+        icon_pack = "fab"
+        html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
+
+    [[params.servers]]
+        name              = "beeldbellen.vc4all.nl"
+        url               = "https://beeldbellen.vc4all.nl"
+        managed_name      = "Team VC4ALL"
+        managed_url       = "https://vc4all.nl"
+        privacy_stmt_name = "Privacyverklaring (PDF)"
+        privacy_stmt_url  = "/privacyverklaring-20200330.pdf"
+    [[params.servers]]
+        name              = "jitsi.0x5e.eu"
+        url               = "https://jitsi.0x5e.eu"
+        managed_name      = "Nick Bouwhuis"
+        managed_url       = "https://twitter.com/nickbouwhuis/status/1241698389571616768"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://nick.bouwhuis.io/privacy-0x5e-jitsi.pdf"
+    [[params.servers]]
+        name              = "jitsi.hivos.org"
+        url               = "https://jitsi.hivos.org"
+        managed_name      = "Hivos"
+        managed_url       = "https://www.hivos.org"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://jitsi.hivos.org/privacy.html"
+    [[params.servers]]
+        name              = "meetme.bit.nl"
+        url               = "https://meetme.bit.nl"
+        managed_name      = "Bit.nl"
+        managed_url       = "https://www.bit.nl/news/2647/88/Conference-call-Gebruik-de-gratis-videoconferencetool-meetme.bit.nl"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://www.bit.nl/privacy-statement-meetmebitnl/"
+    [[params.servers]]
+        name              = "meet.waag.org"
+        url               = "https://meet.waag.org"
+        managed_name      = "Waag"
+        managed_url       = "https://waag.org"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://waag.org/nl/article/privacy-statement-meetwaagorg-jitsi"
+    [[params.servers]]
+        name              = "jitsi.nluug.nl"
+        url               = "https://jitsi.nluug.nl"
+        managed_name      = "NLUUG"
+        managed_url       = "https://nluug.nl/"
+        privacy_stmt_name = "Privacyverklaring (zie kopje 'Videoconferentie Jitsi')"
+        privacy_stmt_url  = "https://www.nluug.nl/vereniging/privacy.html"
+    [[params.servers]]
+        name              = "meet.speakup.nl"
+        url               = "https://meet.speakup.nl"
+        managed_name      = "Speakup"
+        managed_url       = "https://speakup.nl/"
+        privacy_stmt_name = "Privacyverklaring (zie kopje 'Jitsi Meet')"
+        privacy_stmt_url  = "https://meet.speakup.nl/static/privacy.html"
+    [[params.servers]]
+        name              = "meet.greenmini.host"
+        url               = "https://meet.greenmini.host"
+        managed_name      = "Green Mini host"
+        managed_url       = "https://www.greenmini.nl/"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://www.greenmini.nl/20200401%20Privacyverklaring%20meet.greenmini.host%20-%20Jitsi.pdf"
+    [[params.servers]]
+        name              = "jitsi.nogalliance.org"
+        url               = "https://jitsi.nogalliance.org"
+        managed_name      = "NOG Alliance (Sander Steffann)"
+        managed_url       = "https://nogalliance.org/"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://nogalliance.org/privacy-policy/"
+    [[params.servers]]
+        name              = "conference.westplaat.it"
+        url               = "https://conference.westplaat.it"
+        managed_name      = "Westplaat IT"
+        managed_url       = "https://westplaat-it.nl/"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://westplaat-it.nl/privacy-verklaring/"
+    [[params.servers]]
+        name              = "jitsi.r3blog.nl"
+        url               = "https://jitsi.r3blog.nl"
+        managed_name      = "Lex van Roon"
+        managed_url       = "https://keybase.io/r3boot/"
+        privacy_stmt_name = "Privacyverklaring"
+        privacy_stmt_url  = "https://jitsi.r3blog.nl/privacyverklaring.pdf"
