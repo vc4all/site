@@ -69,11 +69,11 @@
       <!-- Sidebar Column -->
       <div class="col-lg-3 mb-4">
         <div class="list-group">
-          {{ $url := .URL }}
+          {{ $url := .Permalink }}
           {{ $pages := where .Site.RegularPages "Type" "page" }}
           {{ range sort $pages "Params.weight"}}
             {{ if not .IsHome }}
-              <a class="list-group-item{{ if eq $url .URL }} active{{ end }}"
+              <a class="list-group-item{{ if eq $url .Permalink }} active{{ end }}"
                  href="{{ .RelPermalink  }}">
                 {{ .Title }}
               </a>
