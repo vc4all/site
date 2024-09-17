@@ -25,13 +25,6 @@ title = "VC4ALL — Beeldbellen voor iedereen"
         html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
     [[params.servers]]
-        name              = "beeldbellen.vc4all.nl"
-        url               = "https://beeldbellen.vc4all.nl"
-        managed_name      = "Team VC4ALL"
-        managed_url       = "https://vc4all.nl"
-        privacy_stmt_name = "Privacyverklaring (PDF)"
-        privacy_stmt_url  = "/privacyverklaring-20200330.pdf"
-    [[params.servers]]
         name              = "jitsi.hivos.org"
         url               = "https://jitsi.hivos.org"
         managed_name      = "Hivos"
