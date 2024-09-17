@@ -7,19 +7,18 @@ weight: 30
 *VC4ALL heeft privacy hoog in het vaandel staan. Hieronder leggen we uit wat wij doen om zo privacy-vriendelijk mogelijk te zijn en wat u zelf kunt doen.*
 
 ## Uitgangspunten ##
-VC4ALL verwijst door naar meerdere (Jitsi) beeldbelomgevingen. Deze worden door verschillende personen en/of organisaties aangeboden, waaronder eentje door VC4ALL zelf. 
-Elke beeldbelomgeving dient te voldoen aan onderstaande uitgangspunten: 
+VC4ALL verwijst door naar meerdere (Jitsi) beeldbelomgevingen. Deze worden door verschillende personen en/of organisaties aangeboden.Elke beeldbelomgeving dient te voldoen aan onderstaande uitgangspunten: 
 
 - De server dient in de EU gehost te worden (en daarmee aan de [AVG/GDPR](https://nl.wikipedia.org/wiki/Algemene_verordening_gegevensbescherming) te voldoen) 
 - De server dient de verbindingen te versleutelen (bijvoorkeur [SSLLabs A](https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide))
 - Er dient een privacyverklaring aanwezig te zijn
 - De beheerder dient voor ons duidelijk te zijn
 - De beheerder moet de server zelf beheren
-- De server dient in ieder geval gedurende de COVID-19 pandemie gratis beschikbaar te zijn
+- ~~De server dient in ieder geval gedurende de COVID-19 pandemie gratis beschikbaar te zijn~~
 
 De verschillende beeldbelomgevingen zijn terug te vinden op de ['Servers'](/servers) pagina inclusief informatie over de beheerder en de bijbehorende privacyverklaring. 
 
-NB: VC4ALL beheert alleen de beeldbelomgeving [beeldbellen.vc4all.nl](https://beeldbellen.vc4all.nl) ([privacyverklaring](/privacyverklaring-20200330.pdf)). 
+NB: VC4ALL beheert **GEEN** beeldbelomgevingen meer zelf. Onze server is sinds 2 september offline. 
 
 
 ## Tips ## 

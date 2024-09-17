@@ -5,7 +5,9 @@ weight: 10
 ---
 
 VC4ALL is een initiatief opgezet door [Björn Wijers](https://burobjorn.nl) en [B&egrave;r Kessels](https://berk.es/). 
-We hebben dit in 2020 opgezet ten tijde van de Corona pandemie. Hieronder staat wat we toen schreven over VC4ALL: 
+We hebben dit in 2020 opgezet ten tijde van de Corona pandemie. Sinds 2 september 2024 bieden we geen eigen beeldbelserver meer aan.  
+
+Hieronder staat wat we in 2020 schreven over VC4ALL: 
 
 >We leven momenteel in bijzondere tijden. We moeten veel meer dan voorheen op onze
 >digitale infrastructuur terugvallen. Niet alleen voor thuiswerken, maar ook om contact te blijven met familie en vrienden.

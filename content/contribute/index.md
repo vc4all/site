@@ -7,7 +7,7 @@ U kunt ons helpen met:
 
 - *Het delen van uw ervaringen:* we horen graag van u. We zijn benieuwd naar uw ervaringen en uw op- en aanmerkingen. Daarmee kunnen we VC4ALL verder verbeteren, maar we vinden het ook simpelweg leuk om te horen hoe u beeldbellen heeft gebruikt en welke impact het voor uw situatie heeft gehad. Onze contact gegevens staan op de ['Contact'](/contact) pagina. 
 
-- *Mond-tot-mond reclame:* als u VC4ALL handig vindt vergeet dan niet om ook anderen op de mogelijkheden van beeldbellen via VC4ALL te wijzen. Daarmee helpt u anderen om laagdrempelig en privacy-vriendelijk te beeldbellen. Als vrijwilligers worden wij er blij van als we nog meer mensen kunnen faciliteren bij het in contact blijven met familie en vrienden in deze vreemde tijden.  
+- *Mond-tot-mond reclame:* als u VC4ALL handig vindt vergeet dan niet om ook anderen op de mogelijkheden van beeldbellen via VC4ALL te wijzen. Daarmee helpt u anderen om laagdrempelig en privacy-vriendelijk te beeldbellen. Als vrijwilligers worden wij er blij van als we nog meer mensen kunnen faciliteren bij het in contact blijven met familie en vrienden.  
 
 - *Uitlegfilmpjes of handleidingen:* voor veel mensen die nog niet zo handig zijn met computers, telefoons of tablets helpt het enorm als er handleidingen of uitleg filmpjes zijn waarin duidelijk wordt uitgelegd hoe iemand zelf een beeldbelgesprek kan aanmaken of kan deelnemen aan een gesprek. We delen deze handleidingen en filmpjes graag met anderen zodat we elkaar verder helpen.
 
