@@ -1,4 +1,4 @@
-# [Project Name]
+# VC4ALL website
 
 [Short introductionary paragraph]
 
