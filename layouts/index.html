@@ -30,7 +30,7 @@
 
   <!-- Custom styles for this template -->
   {{ $business := resources.Get "css/modern-business.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $business.Permalink }}">
+  <link rel="stylesheet" href="{{ $business.RelPermalink }}">
 </head>
 
 <body class="home">
